@@ -37,23 +37,36 @@
 .copy p {
   max-width: 560px;
   margin-top: 24px;
-  color: rgba(255, 255, 255, 0.88);
   font-size: 1.12rem;
   line-height: 1.7;
 }
 
+.heading {
+  color: black;
+}
+
+.body {
+  color: black;
+}
+
 .cta {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 32px;
   color: #082b26;
   background: #f3c86a;
   padding: 14px 18px;
   border-radius: 8px;
   font-weight: 900;
+  box-shadow: 0 12px 20px rgba(4, 35, 27, 0.12);
+  transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
 }
 
 .cta:hover {
   background: #ffd982;
+  transform: translateY(-1px);
+  box-shadow: 0 16px 26px rgba(4, 35, 27, 0.16);
 }
 
 @media (max-width: 700px) {

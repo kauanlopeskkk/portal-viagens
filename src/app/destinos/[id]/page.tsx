@@ -5,9 +5,9 @@ import { destinos, encontrarDestino } from "@/data/destinos";
 import styles from "./detalhe.module.css";
 
 type DestinoDetalhePageProps = {
-  params: Promise<{
+  params: {
     id: string;
-  }>;
+  };
 };
 
 export function generateStaticParams() {
@@ -16,10 +16,10 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function DestinoDetalhePage({
+export default function DestinoDetalhePage({
   params,
 }: DestinoDetalhePageProps) {
-  const { id } = await params;
+  const { id } = params;
   const destino = encontrarDestino(id);
 
   if (!destino) {

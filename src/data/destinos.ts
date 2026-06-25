@@ -42,7 +42,7 @@ export const destinos: Destino[] = [
     id: "foz-do-iguacu",
     nome: "Foz do Iguacu",
     imagem:
-      "https://images.unsplash.com/photo-1564594985645-4427056b9f61?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
     resumo: "Cataratas impressionantes e atracoes naturais na fronteira entre tres paises.",
     descricao:
       "Foz do Iguacu tem como grande estrela o Parque Nacional do Iguacu, onde as cataratas criam um dos cenarios naturais mais marcantes da America do Sul.",
